@@ -53,3 +53,11 @@ for (var i = 0, item; item = alunos[i++];) {
   p(item)
   p(`i: ${i} - Nome: ${alunos[i]}`)
 }
+
+
+alunos.push('Fulano')
+
+p('for (let aluno in alunos)')
+for (let aluno in alunos) {
+  p(alunos[aluno])
+} 
