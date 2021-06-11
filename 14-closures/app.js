@@ -3,7 +3,6 @@ function p(content) {
 }
 
 // Closures
-
 // Isto nos leva a uma das abstrações mais poderosas que JavaScript tem a oferecer — mas também a mais potencionalmente confusa.
 
 function makeAdder(a) {
